@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "snapshots": 24,
+  "jvp_mixed_direction": true,
+  "vectorized_bounds": true,
+  "full_accept_no_jvp": true,
+  "pde_only_no_jvp": true
+}

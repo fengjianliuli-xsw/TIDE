@@ -1,0 +1,43 @@
+{
+  "case": "gray_scott",
+  "seed": 2,
+  "method": "linear_rank",
+  "caps": [
+    0.0004960661109263568,
+    0.0040543063198583956
+  ],
+  "steps": 27,
+  "accepted": 26,
+  "target_confirmation": null,
+  "final_target": false,
+  "stop": "feasible_step_stagnation",
+  "platform": null,
+  "train_seconds": 7.908417700004065,
+  "hard_budget": 120,
+  "jvps": 108,
+  "checks": 83,
+  "triggers": 27,
+  "direct_accepts": 0,
+  "initial_validation_pde": 0.2558335962530882,
+  "final_metrics": {
+    "relative_l2": 0.8384938077274608,
+    "components": [
+      0.8330394722149883,
+      1.8149621618213012
+    ],
+    "audit_pde": 0.21610114206394804,
+    "audit_constraints": [
+      0.0006681416512736672,
+      0.004379782745316248
+    ],
+    "audit_excess": [
+      0.3468802576051313,
+      0.08027918952833857
+    ],
+    "audit_violations": [
+      true,
+      true
+    ]
+  },
+  "continuation_origin_seconds": 0.0
+}

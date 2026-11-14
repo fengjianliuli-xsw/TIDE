@@ -1,0 +1,39 @@
+{
+  "case": "fhn",
+  "seed": 0,
+  "method": "original_tide_historical",
+  "source": "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\results_long\\fhn_s0\\tide_lazy.pt",
+  "target_three_updates": null,
+  "target_confirmation": null,
+  "periodic_confirmation_available": false,
+  "final_target": false,
+  "stop": "stagnation",
+  "train_seconds": 0.3061076000003595,
+  "steps": 3,
+  "accepted": 2,
+  "caps": [
+    0.007105805789424269,
+    0.06792388180573204
+  ],
+  "final_metrics": {
+    "relative_l2": 5.904037895499504,
+    "components": [
+      4.836546531622413,
+      6.945725257281569
+    ],
+    "audit_pde": 94.74265181739136,
+    "audit_constraints": [
+      0.34169084770025193,
+      1.5386030200346092
+    ],
+    "audit_excess": [
+      47.08615065286447,
+      21.65187117007155
+    ],
+    "audit_violations": [
+      true,
+      true
+    ]
+  },
+  "initial_validation_pde": 26.66505458980004
+}

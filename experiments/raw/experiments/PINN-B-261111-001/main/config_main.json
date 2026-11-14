@@ -1,0 +1,34 @@
+{
+  "seeds": "0,1,2",
+  "freqs": "1,3",
+  "optimizers": "adam,sgdm",
+  "steps": 200,
+  "tau": 0.0001,
+  "tag": "main",
+  "torch": "2.15.0+cpu",
+  "numpy": "1.26.4",
+  "python": "3.11.7",
+  "device": "cpu",
+  "dtype": "float64",
+  "threads": 1,
+  "source_sha256": "1d7b8ed51a5fdd44b4f4a91ec405ed78a7712a5ecee8d5e01226fb35b7be6f3d",
+  "network": [
+    1,
+    24,
+    24,
+    1
+  ],
+  "train_interior": 64,
+  "test_interior": 511,
+  "weights": [
+    0,
+    1,
+    10,
+    100
+  ],
+  "lr_scales": [
+    1,
+    0.25,
+    0.0625
+  ]
+}

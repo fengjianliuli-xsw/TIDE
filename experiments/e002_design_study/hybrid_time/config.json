@@ -1,0 +1,15 @@
+{
+  "tag": "hybrid_time",
+  "steps": 5000,
+  "seeds": "0,1,2",
+  "freqs": "1",
+  "optimizer": "adam",
+  "methods": "gn_bc_tangent",
+  "replay": false,
+  "time_budget": 3.0,
+  "tau": 0.0001,
+  "device": "cpu",
+  "dtype": "float64",
+  "torch": "2.15.0+cpu",
+  "source_sha256": "d0010535a834eed002a627341b8cce4a7250e73dd693fa00cec35802dfd7ccfe"
+}

@@ -1,0 +1,44 @@
+{
+  "case": "cgle",
+  "seed": 4,
+  "method": "linear_rank",
+  "caps": [
+    0.0005447950659367986,
+    0.0006263319990285473
+  ],
+  "steps": 26,
+  "accepted": 25,
+  "target_confirmation": null,
+  "final_target": false,
+  "stop": "feasible_step_stagnation",
+  "platform": null,
+  "train_seconds": 3.7103270000006887,
+  "hard_budget": 120,
+  "jvps": 104,
+  "checks": 75,
+  "triggers": 26,
+  "direct_accepts": 0,
+  "initial_validation_pde": 0.5676853335343094,
+  "final_metrics": {
+    "relative_l2": 0.9354866199944047,
+    "components": [
+      0.9404287675692534,
+      0.9147961775554788
+    ],
+    "audit_pde": 0.508093726661299,
+    "audit_constraints": [
+      0.0003607725403045705,
+      0.0006689570327862869
+    ],
+    "audit_excess": [
+      0.0,
+      0.06805501526962021
+    ],
+    "audit_violations": [
+      false,
+      true
+    ],
+    "amplitude_relative_l2": 0.6454559895285049
+  },
+  "continuation_origin_seconds": 0.0
+}

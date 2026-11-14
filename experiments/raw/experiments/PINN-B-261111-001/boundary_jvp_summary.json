@@ -1,0 +1,8 @@
+{
+  "n_candidates": 144,
+  "linear_mae": 0.00012849888452569317,
+  "quadratic_mae": 2.0888340300243557e-07,
+  "linear_false_safe": 24,
+  "quadratic_false_safe": 0,
+  "actual_unsafe": 24
+}

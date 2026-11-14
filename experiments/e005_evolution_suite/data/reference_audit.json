@@ -1,0 +1,37 @@
+{
+  "cgle": {
+    "coarse_fine_relative": 3.047391649662174e-13
+  },
+  "fhn": {
+    "coarse_fine_relative": 9.072379429148716e-05,
+    "variant": "PDEBench generator, default seed=0, 50x50, white-noise IC; T=5 instead of50; default solve_ivp versus tight same-grid check; no spatial refinement"
+  },
+  "gray_scott": {
+    "coarse": [
+      5,
+      32,
+      32,
+      2
+    ],
+    "fine": [
+      5,
+      64,
+      64,
+      2
+    ],
+    "coarse_fine_relative": 2.1503073302388376e-15
+  },
+  "fhn_main": {
+    "source": "official PDEBench 2D diffusion-reaction trajectory 0000, data/fhn_first.h5",
+    "grid": [
+      101,
+      128,
+      128,
+      2
+    ],
+    "source_config": "512x512, 501 time points, T5, seed0; distributed data downsampled",
+    "IC": "fixed bilinear interpolation, clip coordinates to available cell centers; no noise extrapolation",
+    "refinement": "official single distributed grid only; generated50 grid comparison does not validate official trajectory"
+  },
+  "seconds": 0.04393750000053842
+}

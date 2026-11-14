@@ -1,0 +1,7 @@
+# Recorded experiment environment, Python 3.11 on Windows CPU.
+torch==2.15.0
+numpy==1.26.4
+matplotlib==3.8.3
+scipy==1.17.1
+h5py==3.16.0
+requests>=2.31,<3

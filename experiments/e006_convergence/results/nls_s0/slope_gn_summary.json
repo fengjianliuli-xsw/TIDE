@@ -1,0 +1,74 @@
+{
+  "case": "nls",
+  "seed": 0,
+  "method": "slope_gn",
+  "caps": [
+    0.0001,
+    0.0001
+  ],
+  "target_confirmation": null,
+  "final_target": false,
+  "stop": "feasible_step_stagnation",
+  "platform": null,
+  "accepted": 265,
+  "steps": 266,
+  "train_seconds": 6.96114210000087,
+  "unused_budget": 113.03885699999955,
+  "numerical_zeros": 0,
+  "jvps": 428,
+  "checks": 602,
+  "final_metrics": {
+    "relative_l2": 0.5043794345827332,
+    "components": [
+      0.30863520851393206,
+      0.818742048543076
+    ],
+    "audit_pde": 0.020434757922093746,
+    "audit_constraints": [
+      7.731729591063557e-05,
+      0.00012387284184244043
+    ],
+    "audit_excess": [
+      0.0,
+      0.2387284184244043
+    ],
+    "audit_violations": [
+      false,
+      true
+    ],
+    "amplitude_relative_l2": 0.4029189464477722
+  },
+  "initial_validation_pde": 0.11744356645496534,
+  "config": {
+    "validation_seed": 70000,
+    "validation_n": 192,
+    "validation_nb": 32,
+    "check_seconds": 2,
+    "window_seconds": 10,
+    "window_checks": 4,
+    "platform_tolerance": 0.01,
+    "min_seconds": 60,
+    "hard_seconds": 120,
+    "minimum_effective_updates": 20,
+    "window_relative_displacement": 1e-08,
+    "target_ratio": 0.1,
+    "confirm_checks": 3,
+    "shrink": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625,
+      0.001953125,
+      0.0009765625,
+      0.00048828125,
+      0.000244140625
+    ],
+    "threads": 1,
+    "concurrency": 3
+  }
+}

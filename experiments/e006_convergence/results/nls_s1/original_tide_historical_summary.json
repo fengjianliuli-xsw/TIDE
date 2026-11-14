@@ -1,0 +1,40 @@
+{
+  "case": "nls",
+  "seed": 1,
+  "method": "original_tide_historical",
+  "source": "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\results_long\\nls_s1\\tide_lazy.pt",
+  "target_three_updates": null,
+  "target_confirmation": null,
+  "periodic_confirmation_available": false,
+  "final_target": false,
+  "stop": "stagnation",
+  "train_seconds": 0.13910430000032648,
+  "steps": 3,
+  "accepted": 2,
+  "caps": [
+    0.0001,
+    0.0001
+  ],
+  "final_metrics": {
+    "relative_l2": 1.1461472473077647,
+    "components": [
+      1.1957659120150201,
+      1.0049594400048918
+    ],
+    "audit_pde": 0.13635092441839414,
+    "audit_constraints": [
+      4.7954345813164923e-05,
+      6.703642140747146e-05
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ],
+    "amplitude_relative_l2": 0.5514307401030628
+  },
+  "initial_validation_pde": 0.12068516778479418
+}

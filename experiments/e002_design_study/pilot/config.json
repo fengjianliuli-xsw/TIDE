@@ -1,0 +1,14 @@
+{
+  "tag": "pilot",
+  "steps": 80,
+  "seeds": "0",
+  "freqs": "1",
+  "optimizer": "adam",
+  "methods": "oracle_raw,fo_raw,gn_raw,oracle_tangent,fo_tangent,gn_tangent,gn_strict_tangent,gn_repair_raw",
+  "replay": false,
+  "tau": 0.0001,
+  "device": "cpu",
+  "dtype": "float64",
+  "torch": "2.15.0+cpu",
+  "source_sha256": "e75757e2a4783b33573eda154f26db1fcef76becd9b99c7ac070ac229bc6d034"
+}

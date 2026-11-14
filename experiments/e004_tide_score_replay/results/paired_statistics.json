@@ -1,0 +1,84 @@
+{
+  "unit": "problem_seed, initial and always averaged",
+  "n": 15,
+  "paired_mean": 0.00019315303884464218,
+  "unit_sd": 0.0005066416721665128,
+  "sign_flip_two_sided_p": 0.00390625,
+  "unit_values": [
+    {
+      "case": "elasticity",
+      "seed": 0,
+      "normalized_difference": 8.957626959968791e-14
+    },
+    {
+      "case": "elasticity",
+      "seed": 1,
+      "normalized_difference": 0.0
+    },
+    {
+      "case": "elasticity",
+      "seed": 2,
+      "normalized_difference": 4.051082279025054e-13
+    },
+    {
+      "case": "kovasznay",
+      "seed": 0,
+      "normalized_difference": 0.00015031603085639592
+    },
+    {
+      "case": "kovasznay",
+      "seed": 1,
+      "normalized_difference": 2.5077677826600714e-07
+    },
+    {
+      "case": "kovasznay",
+      "seed": 2,
+      "normalized_difference": 2.9781198235976168e-12
+    },
+    {
+      "case": "nls",
+      "seed": 0,
+      "normalized_difference": 0.0017966694575241773
+    },
+    {
+      "case": "nls",
+      "seed": 1,
+      "normalized_difference": 3.3627546108173904e-09
+    },
+    {
+      "case": "nls",
+      "seed": 2,
+      "normalized_difference": 0.0
+    },
+    {
+      "case": "gray_scott",
+      "seed": 0,
+      "normalized_difference": 0.0
+    },
+    {
+      "case": "gray_scott",
+      "seed": 1,
+      "normalized_difference": 0.0009500559511157111
+    },
+    {
+      "case": "gray_scott",
+      "seed": 2,
+      "normalized_difference": 1.6766751740924303e-13
+    },
+    {
+      "case": "helmholtz",
+      "seed": 0,
+      "normalized_difference": 0.0
+    },
+    {
+      "case": "helmholtz",
+      "seed": 1,
+      "normalized_difference": 0.0
+    },
+    {
+      "case": "helmholtz",
+      "seed": 2,
+      "normalized_difference": 0.0
+    }
+  ]
+}

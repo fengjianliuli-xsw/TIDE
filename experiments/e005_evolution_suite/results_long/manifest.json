@@ -1,0 +1,32 @@
+{
+  "attempted_cases": [
+    "nls",
+    "gray_scott",
+    "cgle",
+    "fhn",
+    "allen_cahn"
+  ],
+  "attempted_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "successful_units": 24,
+  "startup_failed_units": 1,
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "dtype": "float64",
+  "threads": 1,
+  "sha256": {
+    "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\longrun.py": "45cfbad1dcabd2bce70eaa0adbe051bc0d594a4ada2ed52f69b3f96ce1f2b358",
+    "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\analyze_long.py": "d1490e2153c9560925303723ecb6df97e8b639333ddeaee446173cc33c6f43d4",
+    "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\bench.py": "e4188a42a00dd50b1b2704e36ac6ee23d6264435995b15f02ac729b1df663ee9",
+    "F:\\RA\\constraint_update_plugin_20261111\\e004_tide_score_replay\\replay.py": "fb0fb532171c2d8fbf1372edfd40b4f5cb31fcdb1356d99bb2dba795ed5d7d40",
+    "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\data\\AC.mat": "266e97eedd9ef543d7f6d370fa5f06388761aa7da2b97e476562dcf1d644a175",
+    "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\data\\fhn_first.h5": "dbc41b9776ba362a18cb1899913c555f0de53206b13e78d744c5d726766cd48c",
+    "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\data\\cgle.npz": "645e3681cd8f84d1be08ee3b3a6c2ad90ff75ffdc7993f2bcd41b6eaa36c9c9a",
+    "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\gray_reference.npz": "57d9d7406a46ccca69e2a13a3ac780be01e7e7c7aea063336834e3c9134b8070"
+  },
+  "note": "config.json records last runner invocation; manifest combines all. Pilot excluded; startup and official FHN IC cache fixes logged. Full/lazy common JVP214/141 and theta max diff0."
+}

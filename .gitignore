@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.mplcache/
+*.pt
+*.npz
+*.h5
+*.mat
+*.bin
+*.jsonl
+*.zip
+*.log
+*.err

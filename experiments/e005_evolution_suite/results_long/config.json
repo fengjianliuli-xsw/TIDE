@@ -1,0 +1,22 @@
+{
+  "cases": [
+    "fhn"
+  ],
+  "seeds": [
+    3,
+    4
+  ],
+  "steps": 1000,
+  "weights": [
+    0,
+    1,
+    100
+  ],
+  "lr": 0.001,
+  "cap": "max(1e-4,2*small_initial_block_MSE)",
+  "points": "train48 small16 review192/32 audit384/48",
+  "source_sha256": "864ca5d4ab8dc4a72d2eddab5d5ec5e6cf65d5f542bed40dfab843db0987b713",
+  "dtype": "float64",
+  "threads": 1,
+  "budget": "paired per-seed 1000-step weighted Adam measured training wall; methods run through max(budget,1000 updates) for sync; no beyond-budget checkpoint in main comparison"
+}

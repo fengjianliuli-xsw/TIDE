@@ -1,0 +1,39 @@
+{
+  "case": "gray_scott",
+  "seed": 2,
+  "method": "original_tide_historical",
+  "source": "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\results_long\\gray_scott_s2\\tide_lazy.pt",
+  "target_three_updates": null,
+  "target_confirmation": null,
+  "periodic_confirmation_available": false,
+  "final_target": false,
+  "stop": "stagnation",
+  "train_seconds": 0.1530663999992612,
+  "steps": 1,
+  "accepted": 0,
+  "caps": [
+    0.0004960661109263568,
+    0.0040543063198583956
+  ],
+  "final_metrics": {
+    "relative_l2": 0.8828348623508909,
+    "components": [
+      0.8766200945368772,
+      1.9715308579970146
+    ],
+    "audit_pde": 0.25897041210049887,
+    "audit_constraints": [
+      0.00046921923323040964,
+      0.003919129475482481
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ]
+  },
+  "initial_validation_pde": 0.2558335962530882
+}

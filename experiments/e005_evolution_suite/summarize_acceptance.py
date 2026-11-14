@@ -1,0 +1,66 @@
+"""Generate the reviewer's tables from independently audited E005 measurements."""
+import csv
+import json
+from pathlib import Path
+from statistics import mean, median
+
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT/"acceptance"
+
+def load(name):
+    with (OUT/name).open(encoding="utf-8-sig",newline="") as f:
+        return list(csv.DictReader(f))
+
+def col(rows,key):
+    return [float(r[key]) for r in rows]
+
+def paired(left,right):
+    diffs=[x-y for x,y in zip(left,right)]
+    return "/".join(str(v) for v in (sum(d< -1e-10 for d in diffs),
+                                      sum(abs(d)<=1e-10 for d in diffs),
+                                      sum(d>1e-10 for d in diffs)))
+
+
+def main():
+    rows=load("budget_recalculated.csv")
+    pr=load("full_lazy_pairs.csv")
+    stalls=load("stall_trials.csv")
+    cases=list(dict.fromkeys(r["case"] for r in rows))
+    part=["# 五题长程实验独立验收与结论","",
+          "主指标为相同训练时间下的时空相对 L2。每题预置五个配对种子，表中解误差为完成启动的配对种子均值。零步表示候选选择结束后未得到可提交的更新。初态、停滞和约束审计均纳入结果。","",
+          "| 题目 | 初态 | 加权 Adam | 斜率＋GN | 按需 TIDE | 按需提交数（种子 0–4） | 对斜率胜/平/负 |",
+          "|---|---:|---:|---:|---:|---|---|"]
+    for c in cases:
+        groups=[[r for r in rows if r["case"]==c and r["method"]==m] for m in ("adam","slope_gn","tide_lazy")]
+        seeds=[z["seed"] for z in groups[-1]]
+        assert seeds and all([z["seed"] for z in g]==seeds for g in groups)
+        a,s,l=[col(g,"rel_l2") for g in groups]
+        commits={z["seed"]:z["accepted_at_budget"] for z in groups[-1]}
+        part.append(f"| {c} | {mean(col(groups[-1],'initial_rel_l2')):.5f} | {mean(a):.5f} | {mean(s):.5f} | {mean(l):.5f} | {', '.join(commits.get(i,'启动失败') for i in '01234')} | {paired(l,s)} |")
+    part+=["","胜/平/负按同种子的相对 L2 差计算，小于等于 1e-10 的绝对差计平。按需与全量在全部实际提交参数、方向 ID、步长、拒绝序列及终点动量、二阶矩上逐项复核。","",
+           "| 题目 | 全量/按需 JVP（含失败尝试） | 全量/按需训练秒数之和 | 独立集 BC/IC 终点超限数（按需） | 新增 BC/IC 超限 | 可通过缩步再走一步的停滞点 |",
+           "|---|---|---|---|---|---|"]
+    for c in cases:
+        p=[r for r in pr if r["case"]==c]
+        l=[r for r in rows if r["case"]==c and r["method"]=="tide_lazy"]
+        v=[sum(float(r[k+"_ratio"])>1 for r in l) for k in ("bc","ic")]
+        new=[sum(float(r[k+"_ratio"])>1>=float(r["initial_"+k+"_ratio"]) for r in l) for k in ("bc","ic")]
+        t=[r for r in stalls if r["case"]==c]
+        part.append(f"| {c} | {sum(col(p,'full_jvp')):.0f} / {sum(col(p,'lazy_jvp')):.0f} | {sum(col(p,'full_time')):.3f} / {sum(col(p,'lazy_time')):.3f} | {v[0]} / {v[1]} | {new[0]} / {new[1]} | {sum(z['found']=='True' for z in t)} / {len(t)} |")
+    lazy=[r for r in rows if r["method"]=="tide_lazy"]
+    y=[r for r in stalls if r["found"]=="True"]
+    counts=col(lazy,"accepted_total")
+    part+=["",f"按需 TIDE 共提交 {int(sum(counts))} 步，{counts.count(0.)}/{len(counts)} 个起点零步，单条轨迹提交中位数 {median(counts):g}，最长 {max(counts):g} 步。训练时间含真实复核和运行中的日志开销，面积很小的时间差易受执行顺序和系统噪声影响。","",
+           f"冻结终态后，在相同方向和点集上依次把各自原试步乘以 1/2 至 1/4096。找到安全且使训练 PDE 严格下降的步子共 {len(y)}/{len(stalls)} 个终态。每个终态取三个方向中相对下降最大的第一条通过步；其相对 PDE 下降的中位数为 {median(col(y,'gain')):.4g}（比例）。这是单步诊断，未接入训练，也没有修改主表。","",
+           "独立复算从保存的参数前向计算解，并以 PyTorch 空间自动微分另行构造 PDE 与导数型边界条件。逐行检查初态共享、训练时序、预算截止、提交充分必要条件和失败记录。解真值沿用公布的评估网格与参考场。参考场另以分裂法核查 Allen–Cahn，以自适应 DOP853 核查 CGLE。FHN 使用官方发布的 0000 组和原时间坐标，受初始白噪声、单条参考轨迹和相对启动容差影响。","",
+           "逐种子重算见 acceptance/budget_recalculated.csv，共同轨迹见 acceptance/full_lazy_pairs.csv，终态探测及否决项见 acceptance/stall_trials.csv，参考核查见 acceptance/references.json。"]
+    full=sum(col(pr,"full_jvp")); lazy_calls=sum(col(pr,"lazy_jvp"))
+    ft=sum(col(pr,"full_time")); lt=sum(col(pr,"lazy_time"))
+    part+=["","## 方法判断","",
+           f"按需版累计使用 {int(lazy_calls)} 次 JVP，全量为 {int(full)} 次，节省 {(1-lazy_calls/full)*100:.1f}%。两者各自训练至停滞总耗时 {lt:.3f} 与 {ft:.3f} 秒。这是保护阶段的实测值，未把各方法共享的启动拟合时间计入节省。","",
+           "在 NLS 上，五个种子的加权 Adam 和按需 TIDE 终点都满足独立 IC 与 BC 上限。即使在这个保护精度可比的子问题，Adam 的等时间解误差也明显更低。Gray–Scott 的 Adam 解误差同样低得多，但有两个种子独立约束越界。FHN 的按需组有四个成功启动种子，独立边界均越界；其均值较 Adam 低不足以说明在整个边界达标条件下更准确。","",
+           "首要待改机制是失败试步后的步长处理。保持候选集、上限和点集不动，先在全体原步长失败后，单独测试按原顺序缩步再验；同时给斜率基线同样的缩步能力，并把全部试算计入预算。这样能查明多走几步之后，按可行收益排序是否仍贡献额外精度。单步救回不能预示长期误差获益。"]
+    (ROOT/"独立验收.md").write_text("\n".join(part)+"\n",encoding="utf-8")
+
+if __name__=="__main__":
+    main()

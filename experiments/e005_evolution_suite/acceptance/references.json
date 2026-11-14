@@ -1,0 +1,15 @@
+{
+  "allen_raw_sha256": "266e97eedd9ef543d7f6d370fa5f06388761aa7da2b97e476562dcf1d644a175",
+  "allen_initial_max_abs": 4.440892098500626e-16,
+  "allen_relative_512_to_file": 1.3803340464732406e-07,
+  "allen_relative_1024_to_file": 8.307674648267099e-06,
+  "allen_relative_coarse_to_fine": 8.30834232539202e-06,
+  "cgle_relative_independent_DOP853_32_to_reference_128": 2.649267651777385e-10,
+  "fhn_archived_group": "0000",
+  "fhn_trajectory_shape": [
+    101,
+    128,
+    128,
+    2
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "tag": "sgdm",
+  "steps": 200,
+  "seeds": "0,1,2",
+  "freqs": "1",
+  "optimizer": "sgdm",
+  "methods": "oracle_tangent,gn_tangent,fo_all_tangent,gn_repair_raw",
+  "replay": false,
+  "time_budget": null,
+  "tau": 0.0001,
+  "device": "cpu",
+  "dtype": "float64",
+  "torch": "2.15.0+cpu",
+  "source_sha256": "0cf83d60fe0a97519ed013a99823d0659e3c1583dc260b1deef92d8ce1cdc8dd"
+}

@@ -1,0 +1,16 @@
+{
+  "tag": "main",
+  "steps": 120,
+  "seeds": "0,1,2",
+  "cases": "elasticity,kovasznay,nls,gray_scott,helmholtz",
+  "budget": null,
+  "source_sha256": "34b795a3aaee44df21091d3a81d70f178bafca872b1eef1832c54c48f6ace77f",
+  "torch": "2.15.0+cpu",
+  "precision": "float64",
+  "device": "cpu",
+  "width": 24,
+  "n_pde": 48,
+  "boundary_points_per_edge": 16,
+  "pretrain_steps_max": 1200,
+  "caps": "max(1e-4,2*initial_block_MSE)"
+}

@@ -1,0 +1,38 @@
+{
+  "case": "allen_cahn",
+  "seed": 3,
+  "method": "original_tide_historical",
+  "source": "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\results_long\\allen_cahn_s3\\tide_lazy.pt",
+  "target_three_updates": null,
+  "target_confirmation": null,
+  "periodic_confirmation_available": false,
+  "final_target": false,
+  "stop": "stagnation",
+  "train_seconds": 0.07535139999981766,
+  "steps": 1,
+  "accepted": 0,
+  "caps": [
+    0.0001,
+    0.00018024133406596856
+  ],
+  "final_metrics": {
+    "relative_l2": 1.4800089831997374,
+    "components": [
+      1.4800089831997374
+    ],
+    "audit_pde": 49.57954276653899,
+    "audit_constraints": [
+      3.197076347130675e-05,
+      8.317880279753716e-05
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ]
+  },
+  "initial_validation_pde": 54.64305610722329
+}

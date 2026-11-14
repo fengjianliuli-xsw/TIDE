@@ -1,0 +1,22 @@
+{
+  "code_sha256": "fb0fb532171c2d8fbf1372edfd40b4f5cb31fcdb1356d99bb2dba795ed5d7d40",
+  "bench_sha256": "e4188a42a00dd50b1b2704e36ac6ee23d6264435995b15f02ac729b1df663ee9",
+  "torch": "2.15.0+cpu",
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "threads": 1,
+  "dtype": "torch.float64",
+  "lr": 0.001,
+  "weights": [
+    0,
+    1,
+    100
+  ],
+  "multipliers": [
+    1,
+    4
+  ],
+  "timing_repeats": 3,
+  "feasibility_comparison": "exact <= cap; no shrink; h<0 => zero",
+  "score_tie": "exact S then lower direction ID; lazy pruning tolerance 1e-14*max(1,abs(S))"
+}

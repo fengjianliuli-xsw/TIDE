@@ -1,0 +1,7 @@
+{
+  "stable_roots": "pass",
+  "direction_switch": "pass",
+  "equal_upper": "pass",
+  "reject_then_second": "pass",
+  "zero_fallback": "pass"
+}

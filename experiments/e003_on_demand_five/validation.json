@@ -1,0 +1,32 @@
+[
+  {
+    "case": "elasticity",
+    "analytic_residual_max": 2.808666774861361e-16,
+    "jet_finite_difference": "passed",
+    "constraint_jvp": "passed"
+  },
+  {
+    "case": "kovasznay",
+    "analytic_residual_max": 3.3993498887762963e-16,
+    "jet_finite_difference": "passed",
+    "constraint_jvp": "passed"
+  },
+  {
+    "case": "nls",
+    "analytic_residual_max": 2.7755575615628914e-17,
+    "jet_finite_difference": "passed",
+    "constraint_jvp": "passed"
+  },
+  {
+    "case": "gray_scott",
+    "analytic_residual_max": null,
+    "jet_finite_difference": "passed",
+    "constraint_jvp": "passed"
+  },
+  {
+    "case": "helmholtz",
+    "analytic_residual_max": 2.51214793389404e-15,
+    "jet_finite_difference": "passed",
+    "constraint_jvp": "passed"
+  }
+]

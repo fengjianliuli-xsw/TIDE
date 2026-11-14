@@ -1,0 +1,20 @@
+{
+  "status": "startup failure; no main trajectory, no cap relaxation, no retained theta from original assertion",
+  "caps": [
+    0.00035971517982803905,
+    0.0019378018023611986
+  ],
+  "case": "fhn",
+  "review": [
+    0.0003889215443064261,
+    0.004420297218229256
+  ],
+  "seconds": 234.3270952,
+  "steps": 12000,
+  "small": [
+    0.00017985758991401953,
+    0.0009689009011805993
+  ],
+  "seed": 2,
+  "timing_source": "filesystem interval from fhn_s2 directory creation immediately before fitting to failure log last write; approximate wall time"
+}

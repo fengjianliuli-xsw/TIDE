@@ -1,0 +1,42 @@
+{
+  "case": "allen_cahn",
+  "seed": 0,
+  "method": "linear_rank",
+  "caps": [
+    0.0003916801091618564,
+    0.0013253664399601446
+  ],
+  "steps": 52,
+  "accepted": 51,
+  "target_confirmation": null,
+  "final_target": false,
+  "stop": "feasible_step_stagnation",
+  "platform": null,
+  "train_seconds": 6.9360496000008425,
+  "hard_budget": 120,
+  "jvps": 208,
+  "checks": 136,
+  "triggers": 52,
+  "direct_accepts": 0,
+  "initial_validation_pde": 7.066699667092079,
+  "final_metrics": {
+    "relative_l2": 1.386615404442787,
+    "components": [
+      1.386615404442787
+    ],
+    "audit_pde": 5.391244567244933,
+    "audit_constraints": [
+      0.0003134519344232353,
+      0.001077798199369099
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ]
+  },
+  "continuation_origin_seconds": 0.0
+}

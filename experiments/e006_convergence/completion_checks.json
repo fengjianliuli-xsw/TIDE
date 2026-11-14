@@ -1,0 +1,722 @@
+[
+  {
+    "case": "allen_cahn",
+    "seed": 0,
+    "method": "adam",
+    "steps": 41876,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 0,
+    "method": "slope_gn",
+    "steps": 8,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 0,
+    "method": "tide_lazy",
+    "steps": 8,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 1,
+    "method": "adam",
+    "steps": 42931,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 1,
+    "method": "slope_gn",
+    "steps": 7,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 1,
+    "method": "tide_lazy",
+    "steps": 5,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 2,
+    "method": "adam",
+    "steps": 7736,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 2,
+    "method": "slope_gn",
+    "steps": 33,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 2,
+    "method": "tide_lazy",
+    "steps": 39,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 3,
+    "method": "adam",
+    "steps": 43636,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 3,
+    "method": "slope_gn",
+    "steps": 5,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 3,
+    "method": "tide_lazy",
+    "steps": 5,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 4,
+    "method": "adam",
+    "steps": 43145,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 4,
+    "method": "slope_gn",
+    "steps": 13,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "allen_cahn",
+    "seed": 4,
+    "method": "tide_lazy",
+    "steps": 11,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 0,
+    "method": "adam",
+    "steps": 24821,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "cgle",
+    "seed": 0,
+    "method": "slope_gn",
+    "steps": 8,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 0,
+    "method": "tide_lazy",
+    "steps": 8,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 1,
+    "method": "adam",
+    "steps": 39499,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 1,
+    "method": "slope_gn",
+    "steps": 13,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 1,
+    "method": "tide_lazy",
+    "steps": 10,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 2,
+    "method": "adam",
+    "steps": 7923,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "cgle",
+    "seed": 2,
+    "method": "slope_gn",
+    "steps": 56,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 2,
+    "method": "tide_lazy",
+    "steps": 17,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 3,
+    "method": "adam",
+    "steps": 11441,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "cgle",
+    "seed": 3,
+    "method": "slope_gn",
+    "steps": 14,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 3,
+    "method": "tide_lazy",
+    "steps": 48,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 4,
+    "method": "adam",
+    "steps": 9829,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "cgle",
+    "seed": 4,
+    "method": "slope_gn",
+    "steps": 29,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "cgle",
+    "seed": 4,
+    "method": "tide_lazy",
+    "steps": 69,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 0,
+    "method": "adam",
+    "steps": 24377,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 0,
+    "method": "slope_gn",
+    "steps": 4,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 0,
+    "method": "tide_lazy",
+    "steps": 4,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 1,
+    "method": "adam",
+    "steps": 26347,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 1,
+    "method": "slope_gn",
+    "steps": 8,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 1,
+    "method": "tide_lazy",
+    "steps": 8,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 3,
+    "method": "adam",
+    "steps": 26262,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 3,
+    "method": "slope_gn",
+    "steps": 9,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 3,
+    "method": "tide_lazy",
+    "steps": 9,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 4,
+    "method": "adam",
+    "steps": 26394,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 4,
+    "method": "slope_gn",
+    "steps": 19,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "fhn",
+    "seed": 4,
+    "method": "tide_lazy",
+    "steps": 19,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 0,
+    "method": "adam",
+    "steps": 20245,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "gray_scott",
+    "seed": 0,
+    "method": "slope_gn",
+    "steps": 16,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 0,
+    "method": "tide_lazy",
+    "steps": 16,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 1,
+    "method": "adam",
+    "steps": 23726,
+    "stop": "time_censored",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "gray_scott",
+    "seed": 1,
+    "method": "slope_gn",
+    "steps": 4,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 1,
+    "method": "tide_lazy",
+    "steps": 4,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 2,
+    "method": "adam",
+    "steps": 20486,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "gray_scott",
+    "seed": 2,
+    "method": "slope_gn",
+    "steps": 15,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 2,
+    "method": "tide_lazy",
+    "steps": 14,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 3,
+    "method": "adam",
+    "steps": 16214,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "gray_scott",
+    "seed": 3,
+    "method": "slope_gn",
+    "steps": 176,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 3,
+    "method": "tide_lazy",
+    "steps": 174,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 4,
+    "method": "adam",
+    "steps": 23127,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "gray_scott",
+    "seed": 4,
+    "method": "slope_gn",
+    "steps": 34,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "gray_scott",
+    "seed": 4,
+    "method": "tide_lazy",
+    "steps": 36,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 0,
+    "method": "adam",
+    "steps": 16389,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "nls",
+    "seed": 0,
+    "method": "slope_gn",
+    "steps": 266,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 0,
+    "method": "tide_lazy",
+    "steps": 227,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 1,
+    "method": "adam",
+    "steps": 22190,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "nls",
+    "seed": 1,
+    "method": "slope_gn",
+    "steps": 1015,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 1,
+    "method": "tide_lazy",
+    "steps": 16,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 2,
+    "method": "adam",
+    "steps": 14862,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "nls",
+    "seed": 2,
+    "method": "slope_gn",
+    "steps": 197,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 2,
+    "method": "tide_lazy",
+    "steps": 203,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 3,
+    "method": "adam",
+    "steps": 11554,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "nls",
+    "seed": 3,
+    "method": "slope_gn",
+    "steps": 23,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 3,
+    "method": "tide_lazy",
+    "steps": 167,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 4,
+    "method": "adam",
+    "steps": 23289,
+    "stop": "empirical_platform",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": true
+  },
+  {
+    "case": "nls",
+    "seed": 4,
+    "method": "slope_gn",
+    "steps": 205,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  },
+  {
+    "case": "nls",
+    "seed": 4,
+    "method": "tide_lazy",
+    "steps": 134,
+    "stop": "feasible_step_stagnation",
+    "initial_exact": true,
+    "history_count_exact": true,
+    "confirmed_state_checked": false
+  }
+]

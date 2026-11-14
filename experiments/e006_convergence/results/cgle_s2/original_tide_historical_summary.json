@@ -1,0 +1,40 @@
+{
+  "case": "cgle",
+  "seed": 2,
+  "method": "original_tide_historical",
+  "source": "F:\\RA\\constraint_update_plugin_20261111\\e005_evolution_suite\\results_long\\cgle_s2\\tide_lazy.pt",
+  "target_three_updates": null,
+  "target_confirmation": null,
+  "periodic_confirmation_available": false,
+  "final_target": false,
+  "stop": "stagnation",
+  "train_seconds": 0.036505400000351074,
+  "steps": 1,
+  "accepted": 0,
+  "caps": [
+    0.0007982712388326968,
+    0.005323761292545021
+  ],
+  "final_metrics": {
+    "relative_l2": 0.7407865068188755,
+    "components": [
+      0.7104460776419139,
+      0.8547414713031664
+    ],
+    "audit_pde": 0.24001890730496556,
+    "audit_constraints": [
+      0.0003773503101747871,
+      0.003157536934246045
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ],
+    "amplitude_relative_l2": 0.5926230061559824
+  },
+  "initial_validation_pde": 0.227544323682369
+}

@@ -1,0 +1,44 @@
+{
+  "case": "nls",
+  "seed": 2,
+  "method": "gn_rank",
+  "caps": [
+    0.0001,
+    0.0001
+  ],
+  "steps": 17,
+  "accepted": 16,
+  "target_confirmation": null,
+  "final_target": false,
+  "stop": "feasible_step_stagnation",
+  "platform": null,
+  "train_seconds": 5.001456099998904,
+  "hard_budget": 120,
+  "jvps": 68,
+  "checks": 51,
+  "triggers": 17,
+  "direct_accepts": 0,
+  "initial_validation_pde": 0.061484620666608536,
+  "final_metrics": {
+    "relative_l2": 0.9129898331506273,
+    "components": [
+      0.9101778483808929,
+      0.9202987333563594
+    ],
+    "audit_pde": 0.08707610139020944,
+    "audit_constraints": [
+      8.695517419149562e-05,
+      9.938800571792608e-05
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ],
+    "amplitude_relative_l2": 0.5992221102714524
+  },
+  "continuation_origin_seconds": 0.0
+}

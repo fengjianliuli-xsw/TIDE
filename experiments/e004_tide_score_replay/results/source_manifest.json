@@ -1,0 +1,172 @@
+[
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e004_tide_score_replay\\replay.py",
+    "bytes": 14662,
+    "sha256": "fb0fb532171c2d8fbf1372edfd40b4f5cb31fcdb1356d99bb2dba795ed5d7d40"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e004_tide_score_replay\\report.py",
+    "bytes": 20137,
+    "sha256": "fd9ecc10fd50189e9edc2487a97f80f33da1d4530a07a0bf49dc797672a479e2"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e004_tide_score_replay\\实验设计.md",
+    "bytes": 3727,
+    "sha256": "01b4855e10b6d12f9d3a2950bd4b6d4774cda68c41120ccf56099417340e3054"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\bench.py",
+    "bytes": 16087,
+    "sha256": "e4188a42a00dd50b1b2704e36ac6ee23d6264435995b15f02ac729b1df663ee9"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\elasticity_s0_initial.pt",
+    "bytes": 8075,
+    "sha256": "de1facb341005cd53ebb0fbc5b85d1462d0471c377585d5056ecbcadf8cab4bd"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\elasticity_s1_initial.pt",
+    "bytes": 8075,
+    "sha256": "be495d5e0b372371622d7bbf51a65e87890ba917aebc854765f3896e99b224cd"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\elasticity_s2_initial.pt",
+    "bytes": 8075,
+    "sha256": "4fd195d23b0ef57dd794aa2ef37cfe402e2090fb622f9b50432f7d247c1bf3de"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\gray_scott_s0_initial.pt",
+    "bytes": 7691,
+    "sha256": "16e4928cad286c89ce6a8c866225c9db9a68e210946bac60adc69e87cbdb28c0"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\gray_scott_s1_initial.pt",
+    "bytes": 7691,
+    "sha256": "b429a587d1519d027b2eaff061bf4f26c38c242eee542504a2a9bab44e58e22f"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\gray_scott_s2_initial.pt",
+    "bytes": 7691,
+    "sha256": "40b63e63e2220a49783ac9f8d11f173fd254e287edec8094319aec13ac45de27"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\helmholtz_s0_initial.pt",
+    "bytes": 7300,
+    "sha256": "2f06d8cf48a537b8466d4ce50f06b9e6c544d203b692b563799f59cd513e5c7a"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\helmholtz_s1_initial.pt",
+    "bytes": 7300,
+    "sha256": "4eb241b6e1124116eb1d5d98354a0172930522bc8732be2f8839edcd1beeb8ae"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\helmholtz_s2_initial.pt",
+    "bytes": 7300,
+    "sha256": "11e914321e4f96fde8acd5e08b2caebf085bfecfe4cf46aa7ec89b41f59fbf8a"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\kovasznay_s0_initial.pt",
+    "bytes": 7684,
+    "sha256": "e07c303a4548eb521fcb6f428552ddaebe140ae6cecfb558c994374a684fd448"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\kovasznay_s1_initial.pt",
+    "bytes": 7684,
+    "sha256": "fcb8e110f77dc0df962188761236e0d7c7f5fb3262b147eb092090dd53e4c816"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\kovasznay_s2_initial.pt",
+    "bytes": 7684,
+    "sha256": "a4e30fd07e6e4b84bd22a20f0e445896f9de86786a382fbcfc52aaa358f3f17e"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\nls_s0_initial.pt",
+    "bytes": 7450,
+    "sha256": "cb40fc8d991ec4781d9a3902335f13bac5c6e3b4dbae88ef1daf51d9dcb48741"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\nls_s1_initial.pt",
+    "bytes": 7450,
+    "sha256": "b490cf5584b85cb994ef894cb553528e0f090cbc8bc4b5d050d5a8dc6faa9db4"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\nls_s2_initial.pt",
+    "bytes": 7450,
+    "sha256": "834b4121c951b112d67d8b12f9f3d248b7f3aded95dba343bfcc5aeffb2c42cc"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\elasticity_s0_always.pt",
+    "bytes": 21270,
+    "sha256": "41382c1043bb46ebbcc76aefd6f4ef4e5f85fcf6448c36e0326c2aa3cd08f0f1"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\elasticity_s1_always.pt",
+    "bytes": 21270,
+    "sha256": "9501fd0881702aae7295bf85976a8032009d56f155be1b0b53b7c6b1784006c7"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\elasticity_s2_always.pt",
+    "bytes": 21270,
+    "sha256": "c99506e7e77c24fba64259de34c8ff79c911919e29faff36763f3f2fab2c2a5f"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\gray_scott_s0_always.pt",
+    "bytes": 20118,
+    "sha256": "ee849a415c80848be59083a1ed7e25c90a17e0314d390b7c5810647b681696fc"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\gray_scott_s1_always.pt",
+    "bytes": 20118,
+    "sha256": "54ccff914b0796bcf60452aade7ce5353e05b4275fd91eb0c6f8855a2e65b612"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\gray_scott_s2_always.pt",
+    "bytes": 20118,
+    "sha256": "b8c5c7fe6529cd797ffae387b14360e6bad01f3e9fea2d4ba9683d50c095f12a"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\helmholtz_s0_always.pt",
+    "bytes": 18957,
+    "sha256": "2ced90671793138c54c38f54253ead670ffde4ffbd77cfc154880a0755e7c6eb"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\helmholtz_s1_always.pt",
+    "bytes": 18957,
+    "sha256": "4422139b3057f855e64e3a644ad5f23636d79d53583d82d5ada2726952c1faae"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\helmholtz_s2_always.pt",
+    "bytes": 18957,
+    "sha256": "c1ed68186cc4424466d21ce01db980b5c6ae8050d0be7b22cd29dc5c4c9c1205"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\kovasznay_s0_always.pt",
+    "bytes": 20109,
+    "sha256": "153b79fdb7676bfde26f9568710be02d11775cd81b9e4b5b926bc5919b5aa917"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\kovasznay_s1_always.pt",
+    "bytes": 20109,
+    "sha256": "636934ee2f14eeabde2a4b51b2ea41bf93f70ef1c016a76936333c2894043f27"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\kovasznay_s2_always.pt",
+    "bytes": 20109,
+    "sha256": "5da8374c76ac0dae4eb4f4896db353a4dfd59dd8e1bd96c6138ba77d0302e132"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\nls_s0_always.pt",
+    "bytes": 19415,
+    "sha256": "61f8123e171ed69228f495b570814bf7c3709afebb0f5f4d1bf58fcfa8fd1710"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\nls_s1_always.pt",
+    "bytes": 19415,
+    "sha256": "dee287901557ae7b501e6931727abfa0e6968dde41b42141bc9d9e2dc3c52065"
+  },
+  {
+    "path": "F:\\RA\\constraint_update_plugin_20261111\\e003_on_demand_five\\main\\nls_s2_always.pt",
+    "bytes": 19415,
+    "sha256": "1a7bd03458e0de08ed04f3fcb9c37b635c50903e0d052fe6453e2b451518dedd"
+  }
+]

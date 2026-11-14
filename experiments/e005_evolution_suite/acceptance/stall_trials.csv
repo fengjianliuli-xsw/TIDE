@@ -1,0 +1,25 @@
+﻿case,seed,found,terminal_denials,terminal_violated_blocks,id,halves,alpha,gain
+nls,0,True,"[""small"", ""pde_or_zero"", ""pde_or_zero""]","[[""small_bc""], [], []]",2,1,0.3561018117678674,0.00693176985979049
+nls,1,True,"[""review"", ""small"", ""small""]","[[""review_bc""], [""small_ic""], [""small_ic""]]",2,1,0.5,0.004346785620884047
+nls,2,True,"[""review"", ""pde_or_zero"", ""pde_or_zero""]","[[""review_bc""], [], []]",2,1,0.28659070535760894,8.160209833966907e-05
+nls,3,True,"[""review"", ""review"", ""review""]","[[""review_ic""], [""review_ic""], [""small_bc"", ""review_bc"", ""review_ic""]]",0,1,0.29311866774496226,0.0330378310765829
+nls,4,True,"[""review"", ""review"", ""review""]","[[""review_ic""], [""review_ic""], [""small_ic"", ""review_ic""]]",0,1,0.18352737391972063,0.025246473978961802
+gray_scott,0,True,"[""review"", ""review"", ""review""]","[[""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""]]",0,1,0.5,0.05645656286637304
+gray_scott,1,False,"[""pde_or_zero"", ""pde_or_zero""]","[[], []]",,,,0.0
+gray_scott,2,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc"", ""review_ic""]]",0,1,0.5,0.04907942996564881
+gray_scott,3,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""small_bc"", ""review_bc""]]",1,1,0.49007705006231606,0.047236788092716815
+gray_scott,4,True,"[""review"", ""review""]","[[""review_bc""], [""review_bc""]]",0,1,0.5,0.036466212226047574
+cgle,0,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc""]]",0,3,0.040427290610483016,0.002522486247292464
+cgle,1,True,"[""review"", ""review"", ""review""]","[[""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""]]",0,3,0.048925548087528276,0.002951016742439966
+cgle,2,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc""]]",2,1,0.44796882239164737,0.03669782244356004
+cgle,3,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""small_bc"", ""review_bc""]]",2,1,0.279941735766038,0.005294609918810743
+cgle,4,True,"[""review"", ""review"", ""review""]","[[""review_ic""], [""review_ic""], [""small_bc"", ""review_bc""]]",1,1,0.22224146517794618,0.0128748067247499
+fhn,0,True,"[""review"", ""review"", ""review""]","[[""review_ic""], [""review_ic""], [""review_ic""]]",0,8,0.00390625,0.0002952591455433304
+fhn,1,True,"[""review"", ""review""]","[[""review_bc""], [""review_bc""]]",0,4,0.0625,0.004811288162428157
+fhn,3,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc""]]",1,1,0.5,0.04512874503688373
+fhn,4,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc""]]",2,2,0.25,0.004691988832442654
+allen_cahn,0,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc""]]",0,2,0.10021636403112608,0.012782974594432214
+allen_cahn,1,True,"[""review"", ""review"", ""review""]","[[""small_bc"", ""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""]]",2,6,0.004067150280314497,0.0002611801920352949
+allen_cahn,2,True,"[""small"", ""small"", ""small""]","[[""small_ic""], [""small_ic""], [""small_ic""]]",2,1,0.06039992140849005,0.0009124100195198964
+allen_cahn,3,True,"[""review"", ""review"", ""review""]","[[""review_bc""], [""review_bc""], [""review_bc""]]",2,3,0.02350974868855029,0.004808865931249948
+allen_cahn,4,True,"[""review"", ""review"", ""review""]","[[""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""], [""review_bc"", ""review_ic""]]",0,1,0.14836888651876823,0.006388423906889469

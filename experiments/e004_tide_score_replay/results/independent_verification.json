@@ -1,0 +1,7 @@
+{
+  "contexts": 240,
+  "records": 720,
+  "method_decisions_verified": 960,
+  "independent_step_bisections": 720,
+  "direct_physics_and_finite_difference_checks": 30
+}

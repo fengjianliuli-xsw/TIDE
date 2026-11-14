@@ -1,0 +1,6 @@
+{
+  "relative_32_dt05_vs64_dt025": 2.1503073302388376e-15,
+  "T": 2.0,
+  "snapshots": 5,
+  "reference": "periodic Fourier Laplacian + RK4; smooth IC"
+}

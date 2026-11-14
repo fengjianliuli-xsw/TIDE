@@ -1,0 +1,50 @@
+[
+  {
+    "estimator": "fo",
+    "candidates": 360,
+    "bc_mae": 0.0005626138120870138,
+    "false_safe": 19,
+    "false_reject": 24,
+    "decisions": 72,
+    "oracle_exists": 72,
+    "feasible_pick": 54,
+    "missed": 18,
+    "conditional_regret_mean": 0.0638278414222542
+  },
+  {
+    "estimator": "gn",
+    "candidates": 360,
+    "bc_mae": 2.940583998966613e-05,
+    "false_safe": 18,
+    "false_reject": 24,
+    "decisions": 72,
+    "oracle_exists": 72,
+    "feasible_pick": 54,
+    "missed": 18,
+    "conditional_regret_mean": 0.0638278414222542
+  },
+  {
+    "estimator": "isotropic",
+    "candidates": 360,
+    "bc_mae": 0.0005670387565915696,
+    "false_safe": 1,
+    "false_reject": 52,
+    "decisions": 72,
+    "oracle_exists": 72,
+    "feasible_pick": 47,
+    "missed": 25,
+    "conditional_regret_mean": 0.07460460769084179
+  },
+  {
+    "estimator": "shuffled",
+    "candidates": 360,
+    "bc_mae": 0.0007382816718590454,
+    "false_safe": 1,
+    "false_reject": 55,
+    "decisions": 72,
+    "oracle_exists": 72,
+    "feasible_pick": 45,
+    "missed": 27,
+    "conditional_regret_mean": 0.29788618412419254
+  }
+]

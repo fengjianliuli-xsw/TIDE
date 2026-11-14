@@ -1,0 +1,52 @@
+[
+  {
+    "case": "elasticity",
+    "jvp_reduction_percent": 5.833333333333335,
+    "wall_reduction_percent": -2.9829115224999425,
+    "cache_jvp_reduction_percent": 99.16666666666667,
+    "cache_wall_reduction_percent": 81.58166702162528,
+    "always_l2": 0.9745591505888296,
+    "lazy_l2": 0.9745591505888296,
+    "cache_l2": 0.9771151739799236
+  },
+  {
+    "case": "kovasznay",
+    "jvp_reduction_percent": 2.777777777777779,
+    "wall_reduction_percent": -8.900027558702007,
+    "cache_jvp_reduction_percent": 99.16666666666667,
+    "cache_wall_reduction_percent": 82.93703152428135,
+    "always_l2": 0.4112170938474722,
+    "lazy_l2": 0.4112170938474722,
+    "cache_l2": 0.41121709384860033
+  },
+  {
+    "case": "nls",
+    "jvp_reduction_percent": 26.01851851851852,
+    "wall_reduction_percent": 0.35459792833480996,
+    "cache_jvp_reduction_percent": 98.79629629629629,
+    "cache_wall_reduction_percent": 82.46764746830509,
+    "always_l2": 0.9973887856963558,
+    "lazy_l2": 0.9973887856963558,
+    "cache_l2": 1.0314275238761152
+  },
+  {
+    "case": "gray_scott",
+    "jvp_reduction_percent": 20.740740740740748,
+    "wall_reduction_percent": 9.589433699254801,
+    "cache_jvp_reduction_percent": 98.98148148148148,
+    "cache_wall_reduction_percent": 72.63279755194819,
+    "always_l2": 0.8503590410601932,
+    "lazy_l2": 0.8503590410601932,
+    "cache_l2": 0.8512296492076127
+  },
+  {
+    "case": "helmholtz",
+    "jvp_reduction_percent": 2.777777777777779,
+    "wall_reduction_percent": -14.003944358762999,
+    "cache_jvp_reduction_percent": 99.16666666666667,
+    "cache_wall_reduction_percent": 83.4197239484886,
+    "always_l2": 0.9993084843505889,
+    "lazy_l2": 0.9993084843505889,
+    "cache_l2": 0.9993084843505794
+  }
+]

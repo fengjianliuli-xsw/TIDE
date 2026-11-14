@@ -1,0 +1,43 @@
+{
+  "case": "fhn",
+  "seed": 0,
+  "method": "linear_rank",
+  "caps": [
+    0.007105805789424269,
+    0.06792388180573204
+  ],
+  "steps": 34,
+  "accepted": 33,
+  "target_confirmation": null,
+  "final_target": false,
+  "stop": "feasible_step_stagnation",
+  "platform": null,
+  "train_seconds": 10.356777399996645,
+  "hard_budget": 120,
+  "jvps": 128,
+  "checks": 100,
+  "triggers": 32,
+  "direct_accepts": 2,
+  "initial_validation_pde": 26.66505458980004,
+  "final_metrics": {
+    "relative_l2": 5.850749580212658,
+    "components": [
+      4.753271076250473,
+      6.91503770994417
+    ],
+    "audit_pde": 86.33217895166509,
+    "audit_constraints": [
+      0.3350141066170511,
+      1.5341674426606984
+    ],
+    "audit_excess": [
+      46.14653292602792,
+      21.58656899275199
+    ],
+    "audit_violations": [
+      true,
+      true
+    ]
+  },
+  "continuation_origin_seconds": 0.0
+}

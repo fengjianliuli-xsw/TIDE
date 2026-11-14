@@ -1,0 +1,1 @@
+Verified 96 trajectories; matched starts across banks; source snapshots match hashes; budget never violates BC limit; strict never increases BC.

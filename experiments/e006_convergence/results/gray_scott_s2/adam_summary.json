@@ -1,0 +1,202 @@
+{
+  "continuation_origin_seconds": 120.02030960000047,
+  "stage1_config": {
+    "validation_seed": 70000,
+    "validation_n": 192,
+    "validation_nb": 32,
+    "check_seconds": 2,
+    "window_seconds": 10,
+    "window_checks": 4,
+    "platform_tolerance": 0.01,
+    "min_seconds": 60,
+    "hard_seconds": 120,
+    "minimum_effective_updates": 20,
+    "window_relative_displacement": 1e-08,
+    "target_ratio": 0.1,
+    "confirm_checks": 3,
+    "shrink": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625,
+      0.001953125,
+      0.0009765625,
+      0.00048828125,
+      0.000244140625
+    ],
+    "threads": 1,
+    "concurrency": 3
+  },
+  "hard_budget": 360,
+  "case": "gray_scott",
+  "seed": 2,
+  "method": "adam",
+  "caps": [
+    0.0004960661109263568,
+    0.0040543063198583956
+  ],
+  "target_confirmation": {
+    "confirmation": {
+      "step": 1114,
+      "elapsed": 16.00361890000204,
+      "pde": 0.0017768938215176906,
+      "pde_ratio": 0.006945506170971638,
+      "constraints": [
+        0.0004436906187785116,
+        0.0006723777433769793
+      ],
+      "cap_ratios": [
+        0.8944183224892366,
+        0.16584285703416296
+      ],
+      "target": true
+    },
+    "first": {
+      "step": 838,
+      "elapsed": 12.003441699998803,
+      "pde": 0.001572902281735767,
+      "pde_ratio": 0.006148145922866767,
+      "constraints": [
+        0.0004523692495794232,
+        0.0009272534412517146
+      ],
+      "cap_ratios": [
+        0.9119132301431883,
+        0.22870828400654755
+      ],
+      "target": true
+    }
+  },
+  "final_target": true,
+  "stop": "empirical_platform",
+  "platform": {
+    "quantile_spans": [
+      [
+        1.253918796298003e-05,
+        0.003717248441963139,
+        0.00015895717399022277
+      ],
+      [
+        2.2229219404499147e-05,
+        0.019929299429477743,
+        0.0026185714815461277
+      ],
+      [
+        1.433167253804535e-05,
+        0.017617905324908256,
+        0.0007945249682709161
+      ]
+    ],
+    "window_bounds": [
+      [
+        282.00658880000265,
+        292.00658880000265
+      ],
+      [
+        292.00658880000265,
+        302.00658880000265
+      ],
+      [
+        302.00658880000265,
+        312.00658880000265
+      ]
+    ],
+    "medians": [
+      [
+        0.0006771707737010644,
+        0.3120186711041446,
+        0.015699233669398786
+      ],
+      [
+        0.0006514570272877671,
+        0.3042989719894075,
+        0.015660550460841798
+      ],
+      [
+        0.000624312695574417,
+        0.29588062319463443,
+        0.015327861001506753
+      ]
+    ],
+    "relative_changes": [
+      [
+        2.571374641329729e-05,
+        0.007719699114737133,
+        3.868320855698881e-05
+      ],
+      [
+        2.7144331713350144e-05,
+        0.008418348794773045,
+        0.00033268945933504455
+      ]
+    ],
+    "effective_updates": 1932,
+    "relative_displacement": 0.23776868495573636,
+    "active": true
+  },
+  "accepted": 20486,
+  "steps": 20486,
+  "train_seconds": 312.0200153000005,
+  "unused_budget": 47.979983399996854,
+  "numerical_zeros": 0,
+  "jvps": 0,
+  "checks": 0,
+  "final_metrics": {
+    "relative_l2": 0.02066836662434025,
+    "components": [
+      0.018040617099716147,
+      0.17127338888035576
+    ],
+    "audit_pde": 0.00015415245622650087,
+    "audit_constraints": [
+      0.00015281411398091296,
+      9.551951305373539e-05
+    ],
+    "audit_excess": [
+      0.0,
+      0.0
+    ],
+    "audit_violations": [
+      false,
+      false
+    ]
+  },
+  "initial_validation_pde": 0.2558335962530882,
+  "config": {
+    "validation_seed": 70000,
+    "validation_n": 192,
+    "validation_nb": 32,
+    "check_seconds": 2,
+    "window_seconds": 10,
+    "window_checks": 4,
+    "platform_tolerance": 0.01,
+    "min_seconds": 60,
+    "hard_seconds": 120,
+    "minimum_effective_updates": 20,
+    "window_relative_displacement": 1e-08,
+    "target_ratio": 0.1,
+    "confirm_checks": 3,
+    "shrink": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625,
+      0.001953125,
+      0.0009765625,
+      0.00048828125,
+      0.000244140625
+    ],
+    "threads": 1,
+    "concurrency": 6
+  }
+}
