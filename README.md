@@ -14,7 +14,7 @@ TIDE（Tolerance-Informed Direction Evaluation）研究一个问题：在已达�
 |E007|24 个旧停滞状态的二维平面回放|固定平面中二阶选角改善部分单步真实收益|
 |E008|TIDE-2D 两组真实训练|二阶选角相对线性选角的终点误差 12 胜/1 平/11 负；两组各 24/24 停滞，0/24 达标|
 
-先读[总报告](reports/TIDE实验总报告.md)，再看[复现说明](reports/复现说明.md)。各轮冻结协议、中文报告、独立验收和逐种子 CSV 都在 experiments 对应子目录。
+先读[总报告](reports/TIDE实验总报告.md)，再看[复现说明](reports/复现说明.md)。汇报可使用[算法图解与完整公式](reports/TIDE算法图解.md)及[三页流程图 PDF](reports/TIDE算法流程图.pdf)。各轮冻结协议、中文报告、独立验收和逐种子 CSV 都在 experiments 对应子目录。
 
 ## 仓库内容
 
